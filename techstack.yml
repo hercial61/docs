@@ -1,0 +1,368 @@
+repo_name: hercial61/docs
+report_id: e6bc00702379742afeb205aaa4cc855c
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-01T18:11:34+00:00'
+requested_by: web-flow
+provider: github
+branch: master
+detected_tools_count: 29
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/hercial61/docs
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/hercial61/docs
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/hercial61/docs
+  detection_source: Repo Metadata
+- name: Kotlin
+  description: Statically typed Programming Language targeting JVM and JavaScript
+  website_url: https://kotlinlang.org/
+  open_source: true
+  hosted_saas: true
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3750/pCfEzr6L.png
+  detection_source_url: https://github.com/hercial61/docs
+  detection_source: Repo Metadata
+- name: PHP
+  description: A popular general-purpose scripting language that is especially suited
+    to web development
+  website_url: http://www.php.net/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source_url: https://github.com/hercial61/docs
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/hercial61/docs
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/hercial61/docs
+  detection_source: Repo Metadata
+- name: Guzzle
+  description: PHP HTTP client that makes it easy to send HTTP requests and trivial
+    to integrate with web services
+  website_url: http://guzzlephp.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/2350/638632.png
+  detection_source_url: https://github.com/hercial61/docs/blob/master/modules/developer_manual/examples/core/scripts/php/composer.json
+  detection_source: modules/developer_manual/examples/core/scripts/php/composer.json
+  last_updated_by: Matthew Setter
+  last_updated_on: 2018-05-11 12:12:26.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/hercial61/docs/blob/master/modules/admin_manual/examples/installation/docker/docker-compose.yml
+  detection_source: modules/admin_manual/examples/installation/docker/docker-compose.yml
+  last_updated_by: Dmitry Mayorov
+  last_updated_on: 2019-07-02 11:07:29.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/hercial61/docs/blob/master/modules/admin_manual/examples/installation/docker/docker-compose.yml
+  detection_source: modules/admin_manual/examples/installation/docker/docker-compose.yml
+  last_updated_by: Dmitry Mayorov
+  last_updated_on: 2019-07-02 11:07:29.000000000 Z
+- name: Serverless AppSync
+  description: Easily and quickly deploy GraphQL APIs on AWS
+  website_url: https://github.com/serverless-components/aws-app-sync
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: GraphQL Tools
+  image_url: https://img.stackshare.io/service/11394/appsync.png
+  detection_source_url: https://github.com/hercial61/docs/blob/master/modules/admin_manual/examples/installation/docker/docker-compose.yml
+  detection_source: modules/admin_manual/examples/installation/docker/docker-compose.yml
+  last_updated_by: Dmitry Mayorov
+  last_updated_on: 2019-07-02 11:07:29.000000000 Z
+- name: Drone.io
+  description: Open source continuous integration platform built on Docker
+  website_url: https://drone.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/668/R_wMcCqN_400x400.png
+  detection_source_url: https://github.com/hercial61/docs/blob/master/.drone.yml
+  detection_source: ".drone.yml"
+  last_updated_by: Thomas Boerger
+  last_updated_on: 2018-08-01 14:08:32.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/hercial61/docs
+  detection_source: Repo Metadata
+- name: PHPUnit
+  description: Testing framework for PHP
+  website_url: https://phpunit.de/
+  version: '4.0'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/1616/1_WsEnddd5Y4EgEHsT054kUQ.jpeg
+  detection_source_url: https://github.com/hercial61/docs/blob/master/modules/developer_manual/examples/core/scripts/php/vendor/guzzlehttp/guzzle/composer.json
+  detection_source: modules/developer_manual/examples/core/scripts/php/vendor/guzzlehttp/guzzle/composer.json
+  last_updated_by: Matthew Setter
+  last_updated_on: 2018-05-11 12:12:26.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/hercial61/docs/blob/master/modules/developer_manual/examples/core/scripts/php/vendor/guzzlehttp/guzzle/.travis.yml
+  detection_source: modules/developer_manual/examples/core/scripts/php/vendor/guzzlehttp/guzzle/.travis.yml
+  last_updated_by: Matthew Setter
+  last_updated_on: 2018-05-11 12:12:26.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/hercial61/docs/blob/master/yarn.lock
+  detection_source: yarn.lock
+  last_updated_by: Thomas Boerger
+  last_updated_on: 2018-12-04 08:22:01.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/hercial61/docs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Matthew Setter
+  last_updated_on: 2018-11-09 09:54:09.000000000 Z
+- name: Elasticsearch
+  description: Open Source, Distributed, RESTful Search Engine
+  website_url: https://www.elastic.co/products/elasticsearch
+  version: 16.5.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search as a Service
+  image_url: https://img.stackshare.io/service/841/Image_2019-05-20_at_4.58.04_PM.png
+  detection_source_url: https://github.com/hercial61/docs/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-10-31 22:15:32.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 2.4.2
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/hercial61/docs/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Matthew Setter
+  last_updated_on: 2019-08-09 13:49:12.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/hercial61/docs
+  detection_source: Repo Metadata
+- name: guzzlehttp/guzzle
+  description: Guzzle is a PHP HTTP client library
+  package_url: https://packagist.org/guzzlehttp/guzzle
+  version: 6.2.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hercial61/docs/blob/master/modules/developer_manual/examples/core/scripts/php/composer.lock
+  detection_source: modules/developer_manual/examples/core/scripts/php/composer.json
+  last_updated_by: Matthew Setter
+  last_updated_on: 2018-05-11 12:12:26.000000000 Z
+- name: guzzlehttp/promises
+  description: Guzzle promises library
+  package_url: https://packagist.org/guzzlehttp/promises
+  version: 1.3.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hercial61/docs/blob/master/modules/developer_manual/examples/core/scripts/php/composer.lock
+  detection_source: modules/developer_manual/examples/core/scripts/php/vendor/guzzlehttp/guzzle/composer.json
+  last_updated_by: Matthew Setter
+  last_updated_on: 2018-05-11 12:12:26.000000000 Z
+- name: guzzlehttp/psr7
+  description: PSR-7 message implementation that also provides common utility methods
+  package_url: https://packagist.org/guzzlehttp/psr7
+  version: 1.3.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hercial61/docs/blob/master/modules/developer_manual/examples/core/scripts/php/composer.lock
+  detection_source: modules/developer_manual/examples/core/scripts/php/vendor/guzzlehttp/guzzle/composer.json
+  last_updated_by: Matthew Setter
+  last_updated_on: 2018-05-11 12:12:26.000000000 Z
+- name: phpunit/phpunit
+  description: The PHP Unit Testing framework
+  package_url: https://packagist.org/phpunit/phpunit
+  version: '4.0'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hercial61/docs/blob/master/modules/developer_manual/examples/core/scripts/php/vendor/guzzlehttp/guzzle/composer.json
+  detection_source: modules/developer_manual/examples/core/scripts/php/vendor/guzzlehttp/guzzle/composer.json
+  last_updated_by: Matthew Setter
+  last_updated_on: 2018-05-11 12:12:26.000000000 Z
+- name: psr/http-message
+  description: Common interface for HTTP messages
+  package_url: https://packagist.org/psr/http-message
+  version: 1.0.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hercial61/docs/blob/master/modules/developer_manual/examples/core/scripts/php/composer.lock
+  detection_source: modules/developer_manual/examples/core/scripts/php/vendor/guzzlehttp/psr7/composer.json
+  last_updated_by: Matthew Setter
+  last_updated_on: 2018-05-11 12:12:26.000000000 Z
+- name: psr/log
+  description: Common interface for logging libraries
+  package_url: https://packagist.org/psr/log
+  version: '1.0'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hercial61/docs/blob/master/modules/developer_manual/examples/core/scripts/php/vendor/guzzlehttp/guzzle/composer.json
+  detection_source: modules/developer_manual/examples/core/scripts/php/vendor/guzzlehttp/guzzle/composer.json
+  last_updated_by: Matthew Setter
+  last_updated_on: 2018-05-11 12:12:26.000000000 Z
+- name: cheerio
+  description: Fast, flexible, and lean implementation of core jQuery
+  package_url: https://www.npmjs.com/cheerio
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15949/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/hercial61/docs/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Matthew Setter
+  last_updated_on: 2019-08-09 13:49:12.000000000 Z
+- name: html-entities
+  description: Faster HTML entities encode/decode library
+  package_url: https://www.npmjs.com/html-entities
+  version: 1.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17291/default_116e98e237458e603feb81cfbf628c00544be692.png
+  detection_source_url: https://github.com/hercial61/docs/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Thomas Boerger
+  last_updated_on: 2019-02-14 15:12:28.000000000 Z
+- name: http-server
+  description: A simple zero-configuration command-line http server
+  package_url: https://www.npmjs.com/http-server
+  version: 0.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16118/default_f905d9556a0330de59b502a579c1f5c4be2b48bf.png
+  detection_source_url: https://github.com/hercial61/docs/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-11-27 22:16:19.000000000 Z
